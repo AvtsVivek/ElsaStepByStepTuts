@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="elsa" Version="1.5.3.1369" />
+	</ItemGroup>
+</Project>

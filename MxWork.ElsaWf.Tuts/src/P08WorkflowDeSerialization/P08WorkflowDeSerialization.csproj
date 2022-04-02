@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="simpleworkflow.json" />
+    <None Remove="simpleWorkflowDefinition.json" />
+    <None Remove="simpleWorkflowInstance.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="simpleWorkflowDefinition.json" />
+    <EmbeddedResource Include="simpleWorkflowInstance.json" />
+  </ItemGroup>
+
+	
+	
+  <ItemGroup>
+    <PackageReference Include="elsa" Version="1.5.3.1369" />
+  </ItemGroup>
+
+	
+	
+  <ItemGroup>
+    <ProjectReference Include="..\MxWork.ElsaWf.Tuts.BasicActivities\MxWork.ElsaWf.Tuts.BasicActivities.csproj" />
+  </ItemGroup>
+
+</Project>

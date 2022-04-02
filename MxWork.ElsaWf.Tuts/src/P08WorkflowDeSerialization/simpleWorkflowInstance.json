@@ -1,0 +1,45 @@
+{
+  "id": "3913623aa07347ad83eeff71ada382c3",
+  "definitionId": "HelloWorldWorkflow",
+  "version": 1,
+  "status": 2,
+  "createdAt": "2021-04-01T06:01:04.4786815Z",
+  "startedAt": "2021-04-01T06:01:04.4849737Z",
+  "finishedAt": "2021-04-01T06:01:04.5106155Z",
+  "activities": {
+    "activity-1": {
+      "id": "activity-1",
+      "type": "HelloWorld",
+      "state": {
+        "name": null
+      },
+      "output": {}
+    },
+    "activity-2": {
+      "id": "activity-2",
+      "type": "GoodByeWorld",
+      "state": {
+        "name": null
+      },
+      "output": {}
+    }
+  },
+  "scope": {
+    "variables": {}
+  },
+  "blockingActivities": [],
+  "executionLog": [
+    {
+      "activityId": "activity-1",
+      "timestamp": "2021-04-01T06:01:04.5018865Z",
+      "faulted": false,
+      "message": "Successfully executed at 2021-04-01T06:01:04Z"
+    },
+    {
+      "activityId": "activity-2",
+      "timestamp": "2021-04-01T06:01:04.5094006Z",
+      "faulted": false,
+      "message": "Successfully executed at 2021-04-01T06:01:04Z"
+    }
+  ]
+}

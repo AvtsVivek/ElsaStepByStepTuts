@@ -1,0 +1,38 @@
+{
+  "id": "b0e0c80e59934b8ba65b8ce1231a9d35",
+  "definitionId": "HelloWorldWorkflow",
+  "version": 1,
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "HelloWorld",
+      "displayName": "Hello World",
+      "left": 0,
+      "top": 0,
+      "state": {
+        "name": null
+      }
+    },
+    {
+      "id": "activity-2",
+      "type": "GoodByeWorld",
+      "displayName": "Good Bye World",
+      "left": 0,
+      "top": 0,
+      "state": {
+        "name": null
+      }
+    }
+  ],
+  "connections": [
+    {
+      "sourceActivityId": "activity-1",
+      "destinationActivityId": "activity-2"
+    }
+  ],
+  "variables": {},
+  "isSingleton": false,
+  "isDisabled": false,
+  "isPublished": true,
+  "isLatest": true
+}
